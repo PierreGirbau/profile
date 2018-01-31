@@ -7,6 +7,36 @@ body {
   line-height: 1.6em;
 }
 
+#sidebar {
+  position: fixed;
+  background-color: #323232;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}
+
+#sidebar li {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#sidebar a {
+    text-decoration: none;
+    font-size: 50px;
+    color: #788188;
+}
+
+#page-content {
+  margin-left: 50px;
+}
+
 #img-profile {
     width: 100px;
     height: 100px;
@@ -134,7 +164,6 @@ td, th {
 li {
   display: list-item;
   list-style: none;
-  text-align:
 }
 
 ul {
@@ -145,6 +174,11 @@ ul {
 .list-inline > li {
   display: inline-block;
   padding: 20px;
+}
+
+.list-block > li {
+  display: block;
+  font-size: 40px;
 }
 
 .list-inline li i {
@@ -163,7 +197,7 @@ ul {
 }
 
 #albums td {
-    padding: 10px;
+  padding: 10px;
 }
 
 #albums {
